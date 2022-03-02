@@ -1,0 +1,20 @@
+#blog  h4 {
+    text-align: center;
+    font-size: small;
+    color: aquamarine;
+}
+
+#blog .contenedor {
+    display: flex;/*Para que se quede en una sola linea*/
+    justify-content: center;/*Para que este centrado*/
+    flex-wrap: wrap;/*Para que se apilen las lineas*/
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
